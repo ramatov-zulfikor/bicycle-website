@@ -1,0 +1,12 @@
+@import './reset';
+@import './fonts';
+@import './variables';
+@import './mixins';
+@import './global';
+@import './overall';
+
+// components imports
+
+@import './components/header';
+@import './components/page';
+@import './components/footer';
