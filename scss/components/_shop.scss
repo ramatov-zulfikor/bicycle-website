@@ -1,0 +1,42 @@
+.shop {
+
+   &__body {
+      display: flex;
+   }
+
+   &__column {
+      flex: 0 1 16.666%;
+
+      &--big {
+         flex: 0 1 33.333%;
+      }
+   }
+
+   &__block {
+   }
+
+   &__footer {
+   }
+
+   &__btn {
+   }
+}
+
+.block-shop {
+
+   &__row {
+      display: flex;
+
+   }
+
+   &__column {
+      flex: 0 1 50%;
+   }
+
+   &__item {
+
+      &--big {
+         padding-bottom: 100%;        
+      }
+   }
+}
